@@ -77,6 +77,8 @@ body{
 .accord:hover .question{
     color: hsl(292, 16%, 49%)
 }
+
+/*Media*/
 @media(max-width: 425px){
     .container{
         width: 300px;
