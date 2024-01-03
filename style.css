@@ -56,6 +56,7 @@ body{
     content: url(images/icon-plus.svg);
     position: absolute;
     right: -5px;
+    cursor: pointer;
 }
 .answer{
     font-size: 16px;
@@ -73,6 +74,7 @@ body{
 .active .question::after{
     content: url(images/icon-minus.svg);
     transition: 0.5s;
+    cursor: pointer;
 }
 .accord:hover .question{
     color: hsl(292, 16%, 49%)
